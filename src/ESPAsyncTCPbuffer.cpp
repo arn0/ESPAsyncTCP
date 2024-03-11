@@ -222,7 +222,7 @@ void AsyncTCPbuffer::onDisconnect(AsyncTCPbufferDisconnectCb cb) {
 
 IPAddress AsyncTCPbuffer::remoteIP() {
     if(!_client) {
-        return IPAddress(0U);
+        return IPAddress(0UL);
     }
     return _client->remoteIP();
 }
