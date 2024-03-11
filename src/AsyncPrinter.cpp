@@ -21,6 +21,8 @@
 
 #include "AsyncPrinter.h"
 
+#define panic() ((void)0)
+
 AsyncPrinter::AsyncPrinter()
   : _client(NULL)
   , _data_cb(NULL)

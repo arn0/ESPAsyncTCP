@@ -24,7 +24,8 @@
 
 
 #include <Arduino.h>
-#include <debug.h>
+//#include <debug.h>
+#define panic() ((void)0)
 
 #include "ESPAsyncTCPbuffer.h"
 
